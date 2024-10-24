@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: transparent;
+    padding: 20px;
+}
+
+nav{
+    padding: 30px;
+    background-color: rgb(255, 149, 0);
+}
+
+nav ul li{
+    margin: 10px;
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 2px;
+    color: white;
+    margin: 50px;
+    margin-bottom: 4px;
+    padding-left: 10px;
+
+}
+
+header h1{
+    text-align: center;
+    color: rgb(255, 149, 0)
+
+}
+
+header p{
+    padding: 20px;
+    align-items: center;
+    color: rgb(255, 149, 0)
+}
+
+.container{
+    display: flex;
+    width: 20px;
+}
+
+.container img{
+    width: 300px;
+    padding: 20px;
+    margin-left: 120px;
+    margin-bottom: 330px;
+}
+
+
+.container h2{
+    color: rgb(255, 149, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

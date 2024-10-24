@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to My Personal Page</h1>
+        <p>Explore my world of coding, creativity, and cool pictures!</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Destiny, a passionate web designer, developer, and artist. I love working on creative projects that combine art and technology.</p>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="gojo.jpeg" alt="Cool Image 1">
+            <img src="tanjiro.jpeg" alt="Cool Image 2">
+            <img src="ice.jpeg" alt="Cool Image 3">
+            <img src="zeni.jpeg" alt="Cool Image 4">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="container">
+            <form action="https://formspree.io/f/xldedovb" method="POST">
+                <h3>Get in touch</h3>
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+                <input type="email" name="email" id="email" placeholder="Your Email ID" required>
+                <input type="text" name="number" id="phone" placeholder="Your Phone Number" required>
+                <textarea id="message" rows="4" name="message" placeholder="How can we help you?"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 by Destiny. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
